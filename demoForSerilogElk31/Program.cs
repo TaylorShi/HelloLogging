@@ -3,10 +3,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Serilog;
+using Serilog.Sinks.Elasticsearch;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using static System.Net.WebRequestMethods;
 
 namespace demoForSerilogElk31
 {
@@ -25,7 +27,11 @@ namespace demoForSerilogElk31
                 })
                 .UseSerilog((context, logger) =>
                 {
-                    logger.ReadFrom.Configuration(context.Configuration);
+                    logger
+                    .MinimumLevel.Debug()
+                    .Enrich.FromLogContext()
+                    .WriteTo.Elasticsearch(new ElasticsearchSinkOptions())
+                    .WriteTo.Console();
                 });
     }
 }
