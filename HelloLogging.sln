@@ -7,13 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demoForConsole31", "demoFor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demoForConsole231", "demoForConsole231\demoForConsole231.csproj", "{0C4632A3-486F-4298-ACB1-7EA460937E0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoForWebApi31", "demoForWebApi31\demoForWebApi31.csproj", "{30A0D708-77DD-4500-AB03-E1FAF47E57B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demoForWebApi31", "demoForWebApi31\demoForWebApi31.csproj", "{30A0D708-77DD-4500-AB03-E1FAF47E57B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoForSerilog31", "demoForSerilog31\demoForSerilog31.csproj", "{66807C11-53EB-41BE-98A5-0C28D7CFB3A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demoForSerilog31", "demoForSerilog31\demoForSerilog31.csproj", "{66807C11-53EB-41BE-98A5-0C28D7CFB3A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoForSerilog231", "demoForSerilog231\demoForSerilog231.csproj", "{084597FC-6C51-4C5A-87C1-990A330C80EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demoForSerilog231", "demoForSerilog231\demoForSerilog231.csproj", "{084597FC-6C51-4C5A-87C1-990A330C80EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoForSerilogElk31", "demoForSerilogElk31\demoForSerilogElk31.csproj", "{4A3415CD-39F0-47BF-9F69-C7D90ED65BB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demoForSerilogElk31", "demoForSerilogElk31\demoForSerilogElk31.csproj", "{4A3415CD-39F0-47BF-9F69-C7D90ED65BB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoForElasticsearch31", "demoForElasticsearch31\demoForElasticsearch31.csproj", "{605B7C91-6E87-4276-9F1A-32D2C8426B38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoForAzureBlobStorage31", "demoForAzureBlobStorage31\demoForAzureBlobStorage31.csproj", "{2DF6E74C-01C4-43D0-BB1C-37F6B41C13A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{4A3415CD-39F0-47BF-9F69-C7D90ED65BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A3415CD-39F0-47BF-9F69-C7D90ED65BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A3415CD-39F0-47BF-9F69-C7D90ED65BB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{605B7C91-6E87-4276-9F1A-32D2C8426B38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605B7C91-6E87-4276-9F1A-32D2C8426B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605B7C91-6E87-4276-9F1A-32D2C8426B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605B7C91-6E87-4276-9F1A-32D2C8426B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF6E74C-01C4-43D0-BB1C-37F6B41C13A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF6E74C-01C4-43D0-BB1C-37F6B41C13A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF6E74C-01C4-43D0-BB1C-37F6B41C13A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF6E74C-01C4-43D0-BB1C-37F6B41C13A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
